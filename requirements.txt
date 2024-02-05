@@ -1,3 +1,4 @@
-altair
+seaborn
 pandas
+matplotlib
 streamlit
