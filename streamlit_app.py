@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Load data
 csv_url = 'https://raw.githubusercontent.com/Luariya/streamlit-example/main/boardgamegeek.csv'
 
-df = pd.read_csv(file_path, index_col=0, sep=',', header=0)
+df = pd.read_csv(csv_url, index_col=0, sep=',', header=0)
 
 # General header and description
 st.title('**Data Science Projekt**')
